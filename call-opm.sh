@@ -5,4 +5,5 @@ mkdir /proj/out
 mkdir /proj/out/opm
 
 cd /proj/out/opm || exit 10
-opm -cwd install zmartzone/lua-resty-openidc fffonion/lua-resty-openssl openresty/lua-resty-redis
+opm -cwd install zmartzone/lua-resty-openidc fffonion/lua-resty-openssl ledgetech/lua-resty-redis-connector
+#openresty/lua-resty-redis
